@@ -9,7 +9,7 @@
 
     --fonte-poema: "Sriracha", cursive;
     --fonte-destaque: 'Passion one', sans-serif;
-    --fonte-padrao: Verdana;
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -24,17 +24,16 @@ header {
     padding-top: 40px;
     margin: 0px;
     padding: 0px;
-
 }
 
 header > h1 {
     color: var(--cor02);
-    font-size: 108px;
+    font-size: 10vw;
     font-family: var(--fonte-destaque);
     font-weight: 700;
     font-style: normal;
     padding-top: 50px;
-    
+    font-variant: small-caps;
 }
 
 header > p {
@@ -57,27 +56,25 @@ a:hover {
     padding: 175px 0px 227px 30px;
     line-height: 2em;
     font-family: var(--fonte-poema);
-    font-size: 37.8px;
+    font-size: 5vw;
 }
 
 #fundo-img1 {
-    background: url(imagens/background001.jpg) center right no-repeat fixed;
+    background: url(../imagens/background001.jpg) center right no-repeat fixed;
     background-size: cover;
     padding: 175px 0px 227px 30px;
     font-family: var(--fonte-poema);
-    font-size: 37.8px;
-    line-height: 3em;
+    font-size: 5vw;
     line-height: 2em;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);   
 }
 
 #fundo-img2 {
-    background: url(imagens/background002.jpg) center left no-repeat fixed;
+    background: url(../imagens/background002.jpg) center left no-repeat fixed;
     background-size: cover;
     padding: 175px 0px 227px 30px;
     font-family: var(--fonte-poema);
-    font-size: 37.8px;
-    line-height: 3em;
+    font-size: 5vw;
     line-height: 2em;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
@@ -104,5 +101,5 @@ footer {
     color: var(--cor02);
     font-family: var(--fonte-padrao);
     text-align: center;
-
+    font-size: 1.7vw;
 }
