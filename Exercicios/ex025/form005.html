@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label> <br>
+                <input type="radio" name="sexo" id="isxfem" value="F"> <label for="isxfem">Feminino</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Games Favoritos</legend>
+            <input type="checkbox" name="gares" id="igares"> <label for="igares">Resident Evil 2</label><br>
+            <input type="checkbox" name="gacas" id="igacas"> <label for="igacas">Castlevania Symphony of the Night</label><br>
+            <input type="checkbox" name="gadin" id="igadin"> <label for="igadin">Dino Crisis 2</label><br>
+            <input type="checkbox" name="ganed" id="iganed"> <label for="iganed">Need for Speed Most Wanted</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
