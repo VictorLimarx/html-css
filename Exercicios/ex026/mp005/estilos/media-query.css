@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+----------------------------------
+Pequenas telas: 320px - 480px
+Celular grande/Phablet: 481px - 767px (celulares grandes ou pequenos tablets)
+Tablet: 768px - 1024px (portrait tablets, iPads)
+Laptop/Desktop: 1025px - 1200px (Laptops, pequenos monitores)
+Telas Grandes: 1201 ou mais (monitores widescreen)
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+    
+     menu {
+        display: block;
+     }
+
+     menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
